@@ -1,3 +1,96 @@
+@font-face {
+    font-family:Mulibold;
+    src: url(/assets/fonts/Muli-Bold.ttf);
+}
+@font-face {
+    font-family: muliregular ;
+    src: url(/assets/fonts/Muli-Regular.woff);
+}
+@font-face {
+    font-family: muliextrabold;
+    src: url(/assets/fonts/Muli-ExtraBold.woff);
+}
+@font-face {
+    font-family: muliitallic;
+    src: url(/assets/fonts/Muli-Italic.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+.body {
+    font-family: Muli-Regular, sans-serif;
+
+}
+
+
+
+
 .header {
-    background-image: url(../img/header-bg-img.png)
+    background-image: url(../img/header-bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header__top {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px 70px;
+}
+.header__nav {
+
+}
+.nav__list-item {
+
+}
+.nav__list-link {
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color:white;
+    text-decoration: none;
+}
+
+.header__right-block {
+    display: flex;
+    align-items: center;
+}
+.nav__list {
+    list-style: none;
+    display: flex;
+    column-gap: 45px;
+}
+.header__personal {
+    list-style: none;
+    display: flex;
+    
+
+}
+.header__social {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+
+}
+.header__content {
+display: flex;
+align-items:center;
+justify-content: center;
+
+}
+
+.btn { border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; -ms-border-radius: 25px; -o-border-radius: 25px;
+}
+
+.header__btn {
+    background-color:green;
+    width: 280px;
+    height: 70px;
+    font: size 24px; ;
+    line-height: 40px;
 }
